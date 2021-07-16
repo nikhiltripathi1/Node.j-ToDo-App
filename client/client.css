@@ -1,0 +1,56 @@
+.container {
+  margin: 3rem auto;
+  width: 30rem;
+  padding: 1rem;
+  background-color: #00235e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+#display-list {
+  overflow: auto;
+  height: 15rem;
+  text-align: center;
+  color: white;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+p {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: black;
+}
+
+.form {
+  margin-top: 1rem;
+}
+input {
+  height: 3rem;
+  width: 80%;
+  padding-left: 5px;
+  margin-right: 0.5rem;
+}
+button {
+  height: 3.4rem;
+  width: 15%;
+  background-color: #fdba21;
+}
